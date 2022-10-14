@@ -1,0 +1,22 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "normal",
+			"combos" : {},
+			"constantshadervalues" : 
+			{
+				"Alpha" : 1,
+				"Color" : "0.80000 0.80000 0.80000",
+				"Light" : 1,
+				"Metal" : 0.01,
+				"Rough" : 0.79000000000000004
+			},
+			"cullmode" : "normal",
+			"depthtest" : "enabled",
+			"depthwrite" : "enabled",
+			"shader" : "generic2",
+			"textures" : [ "wallpaperbetter.com_1920x1080", "particle/drop_normal" ]
+		}
+	]
+}

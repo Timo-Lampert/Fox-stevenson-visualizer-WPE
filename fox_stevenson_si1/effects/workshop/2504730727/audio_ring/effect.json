@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2504730727/effects/audio_ring.json",
+		"shaders/workshop/2504730727/effects/audio_ring.frag",
+		"shaders/workshop/2504730727/effects/audio_ring.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Audio Ring",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2504730727/effects/audio_ring.json"
+		}
+	],
+	"replacementkey" : "audio_ring",
+	"version" : 1
+}

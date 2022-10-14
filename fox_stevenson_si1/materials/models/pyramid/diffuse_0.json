@@ -1,0 +1,22 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "additive",
+			"combos" : {},
+			"constantshadervalues" : 
+			{
+				"Alpha" : 1,
+				"Color" : "0.80000 0.80000 0.80000",
+				"Light" : 1,
+				"Metal" : 0,
+				"Rough" : 0
+			},
+			"cullmode" : "normal",
+			"depthtest" : "enabled",
+			"depthwrite" : "enabled",
+			"shader" : "generic2",
+			"textures" : [ "data-original" ]
+		}
+	]
+}

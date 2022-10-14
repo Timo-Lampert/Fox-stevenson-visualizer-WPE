@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2440553694/effects/constellation.json",
+		"shaders/workshop/2440553694/effects/constellation.frag",
+		"shaders/workshop/2440553694/effects/constellation.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Constellation",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2440553694/effects/constellation.json"
+		}
+	],
+	"replacementkey" : "constellation",
+	"version" : 1
+}

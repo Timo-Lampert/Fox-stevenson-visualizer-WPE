@@ -1,0 +1,22 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : {},
+			"constantshadervalues" : 
+			{
+				"Alpha" : 0,
+				"Color" : "1 0.5607843137254902 0.792156862745098",
+				"Light" : 0.0,
+				"Metal" : 0.0,
+				"Rough" : 0.0
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "enabled",
+			"depthwrite" : "enabled",
+			"shader" : "generic2",
+			"textures" : [ "util/white" ]
+		}
+	]
+}

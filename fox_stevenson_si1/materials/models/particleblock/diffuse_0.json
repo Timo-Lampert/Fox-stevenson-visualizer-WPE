@@ -1,0 +1,26 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "normal",
+			"combos" : {},
+			"constantshadervalues" : 
+			{
+				"Alpha" : 1,
+				"Color" : 
+				{
+					"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'Color'\n * @return {Vec3} - update current property value\n */\nlet initvalue;\nexport function update() {\n\n\treturn initvalue;\n}\n\n/**\n * @param {Object} changedUserProperties - only includes user properties that were recently changed!\n */\nexport function applyUserProperties(properties) {\n\tif (properties.particlecolor != undefined) {\n\n\t\tinitvalue= properties.particlecolor;\n\t}\n}\n\n/**\n * @param {Vec3} value - for property 'Color'\n * @return {Vec3} - update current property value\n */\nexport function init(value) {\n\tinitvalue= value;\n}\n",
+					"value" : "1.00000 1.00000 1.00000"
+				},
+				"Light" : 1,
+				"Metal" : 0,
+				"Rough" : 1
+			},
+			"cullmode" : "normal",
+			"depthtest" : "enabled",
+			"depthwrite" : "enabled",
+			"shader" : "generic2",
+			"textures" : [ "util/white" ]
+		}
+	]
+}

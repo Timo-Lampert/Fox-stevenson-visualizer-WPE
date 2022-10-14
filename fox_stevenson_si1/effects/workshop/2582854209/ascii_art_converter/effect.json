@@ -1,0 +1,18 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2582854209/effects/ascii_art_converter.json",
+		"shaders/workshop/2582854209/effects/ascii_art_converter.frag",
+		"shaders/workshop/2582854209/effects/ascii_art_converter.vert"
+	],
+	"group" : "localeffects",
+	"name" : "ASCII-Art Converter",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2582854209/effects/ascii_art_converter.json"
+		}
+	],
+	"replacementkey" : "ascii_art_converter",
+	"version" : 1
+}

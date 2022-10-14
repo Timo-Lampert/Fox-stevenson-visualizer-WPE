@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/effects/hue_shift_test.json",
+		"shaders/effects/hue_shift_test.frag",
+		"shaders/effects/hue_shift_test.vert"
+	],
+	"editable" : true,
+	"group" : "localeffects",
+	"name" : "hue shift test",
+	"passes" : 
+	[
+		{
+			"material" : "materials/effects/hue_shift_test.json"
+		}
+	],
+	"replacementkey" : "hue_shift_test",
+	"version" : 1
+}

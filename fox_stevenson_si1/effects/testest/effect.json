@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/effects/testest.json",
+		"shaders/effects/testest.frag",
+		"shaders/effects/testest.vert"
+	],
+	"editable" : true,
+	"group" : "localeffects",
+	"name" : "testest",
+	"passes" : 
+	[
+		{
+			"material" : "materials/effects/testest.json"
+		}
+	],
+	"replacementkey" : "testest",
+	"version" : 1
+}

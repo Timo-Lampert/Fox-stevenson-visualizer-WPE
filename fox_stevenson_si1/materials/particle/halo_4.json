@@ -1,0 +1,21 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "normal",
+			"combos" : 
+			{
+				"REFRACT" : 0
+			},
+			"constantshadervalues" : 
+			{
+				"ui_editor_properties_overbright" : 5
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "enabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericparticle",
+			"textures" : [ "particle/halo_6" ]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"passes" : 
+	[
+		{
+			"combos" : {},
+			"constantshadervalues" : 
+			{
+				"Alpha" : 1,
+				"Color" : "0.80000 0.80000 0.80000"
+			},
+			"shader" : "generic2",
+			"textures" : [ "util/white" ]
+		}
+	]
+}

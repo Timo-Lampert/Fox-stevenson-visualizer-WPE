@@ -1,0 +1,30 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "normal",
+			"combos" : {},
+			"constantshadervalues" : 
+			{
+				"Alpha" : 1,
+				"Color" : 
+				{
+					"user" : "walls",
+					"value" : "0.25490 0.24314 0.43922"
+				},
+				"Light" : 100,
+				"Metal" : 1,
+				"Rough" : 1
+			},
+			"cullmode" : "normal",
+			"depthtest" : "enabled",
+			"depthwrite" : "enabled",
+			"shader" : "generic2",
+			"textures" : 
+			[
+				"masks/motionblur_accumulation_mask_681d95af21112ea41fc4cd51aa49d9c553ef1173",
+				null
+			]
+		}
+	]
+}

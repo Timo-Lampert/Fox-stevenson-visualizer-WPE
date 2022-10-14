@@ -1,0 +1,22 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "normal",
+			"combos" : {},
+			"constantshadervalues" : 
+			{
+				"Alpha" : 1,
+				"Color" : "1.00000 1.00000 1.00000",
+				"Light" : 1,
+				"Metal" : 0,
+				"Rough" : 1
+			},
+			"cullmode" : "normal",
+			"depthtest" : "enabled",
+			"depthwrite" : "enabled",
+			"shader" : "generic2",
+			"textures" : [ "masks/clouds_mask_ee0d9bbc6d0516b8583c8fb3e841485c0b7ec4e8", null ]
+		}
+	]
+}

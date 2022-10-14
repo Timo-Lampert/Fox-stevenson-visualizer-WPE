@@ -1,0 +1,18 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2582854209/effects/camera_shutter.json",
+		"shaders/workshop/2582854209/effects/camera_shutter.frag",
+		"shaders/workshop/2582854209/effects/camera_shutter.vert"
+	],
+	"group" : "localeffects",
+	"name" : "Camera Shutter",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2582854209/effects/camera_shutter.json"
+		}
+	],
+	"replacementkey" : "camera_shutter",
+	"version" : 1
+}

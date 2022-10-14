@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2533163105/effects/manual_hue_shift.json",
+		"shaders/workshop/2533163105/effects/manual_hue_shift.frag",
+		"shaders/workshop/2533163105/effects/manual_hue_shift.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Manual Hue Shift",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2533163105/effects/manual_hue_shift.json"
+		}
+	],
+	"replacementkey" : "manual_hue_shift",
+	"version" : 1
+}

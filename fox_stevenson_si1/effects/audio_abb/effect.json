@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/effects/audio_abb.json",
+		"shaders/effects/audio_abb.frag",
+		"shaders/effects/audio_abb.vert"
+	],
+	"editable" : true,
+	"group" : "localeffects",
+	"name" : "audio abb",
+	"passes" : 
+	[
+		{
+			"material" : "materials/effects/audio_abb.json"
+		}
+	],
+	"replacementkey" : "audio_abb",
+	"version" : 1
+}

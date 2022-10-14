@@ -1,0 +1,600 @@
+{
+	"approved" : true,
+	"contentrating" : "Everyone",
+	"description" : "Inspired By: https://www.youtube.com/watch?v=vNCfWEMhAhs \nalong with an idle animation and a few other settings, to keep it minimalistic if wished.\n\n-------------\n\nWorks great with the color adjustment options!\n\nMake sure to crank up that anti aliasing and bloom in your settings.\nBlur might be a bit gpu intense! \n\nWIP wallpaper. Some things may change over time. Shoot me some cool ideas.\n\nThanks to Fug for his Lens flare port and Gariam for his parenting script!\n\nMusic player controls have been removed in favor of Media Integration. It's still the music player asset in case you want it for yourself:\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2499516781 \n\nWhile its entirely possible to use on mobile, please note that i dont know how well it works, as i can't test it myself.\n\n\n\n————-\n\nTags: aesthetic clock parallax minimal minimalism simplistic clean 3D dynamic cel dark bright StanSB Music Player phone smartphone android compatible\n\nCare to drop me a coffee? https://ko-fi.com/skye_shay",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audioshift" : 
+			{
+				"condition" : "enableaudioshift.value == true",
+				"index" : 48,
+				"order" : 148,
+				"text" : "audio shift",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"autoparallax" : 
+			{
+				"condition" : "parallax.value == true",
+				"index" : 24,
+				"order" : 124,
+				"text" : "Auto Parallax",
+				"type" : "bool",
+				"value" : false
+			},
+			"bassblur" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "Bass blur",
+				"type" : "bool",
+				"value" : false
+			},
+			"bassglitching" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "Bass Glitching",
+				"type" : "bool",
+				"value" : false
+			},
+			"bassshake" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "Bass Shake",
+				"type" : "bool",
+				"value" : false
+			},
+			"bgvisualizer" : 
+			{
+				"condition" : "enablewalls.value == true",
+				"index" : 42,
+				"order" : 142,
+				"text" : "Background visualizer",
+				"type" : "bool",
+				"value" : true
+			},
+			"bloomstrength" : 
+			{
+				"fraction" : true,
+				"index" : 46,
+				"max" : 10,
+				"min" : 0,
+				"order" : 146,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "bloom strength",
+				"type" : "slider",
+				"value" : 1
+			},
+			"clock" : 
+			{
+				"index" : 33,
+				"order" : 133,
+				"text" : "Clock",
+				"type" : "bool",
+				"value" : false
+			},
+			"clocksize" : 
+			{
+				"condition" : "clock.value == true",
+				"fraction" : false,
+				"index" : 35,
+				"max" : 50,
+				"min" : 15,
+				"order" : 135,
+				"text" : "Clock size",
+				"type" : "slider",
+				"value" : 30
+			},
+			"clockx" : 
+			{
+				"condition" : "clock.value == true",
+				"fraction" : true,
+				"index" : 37,
+				"max" : 10,
+				"min" : -10,
+				"order" : 137,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "clock X position",
+				"type" : "slider",
+				"value" : 0
+			},
+			"clocky" : 
+			{
+				"condition" : "clock.value == true",
+				"fraction" : true,
+				"index" : 38,
+				"max" : 10,
+				"min" : -10,
+				"order" : 138,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Clock Y position",
+				"type" : "slider",
+				"value" : 0
+			},
+			"clockz" : 
+			{
+				"condition" : "clock.value == true",
+				"fraction" : true,
+				"index" : 36,
+				"max" : 10,
+				"min" : -10,
+				"order" : 136,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Clock z position",
+				"type" : "slider",
+				"value" : 0
+			},
+			"colorrotation" : 
+			{
+				"index" : 51,
+				"order" : 151,
+				"text" : "Color rotation",
+				"type" : "bool",
+				"value" : false
+			},
+			"colorshifting" : 
+			{
+				"index" : 50,
+				"order" : 150,
+				"text" : "color shifting",
+				"type" : "bool",
+				"value" : true
+			},
+			"cubemovement" : 
+			{
+				"index" : 12,
+				"options" : 
+				[
+					{
+						"label" : "None",
+						"value" : "0"
+					},
+					{
+						"label" : "zig zag",
+						"value" : "1"
+					},
+					{
+						"label" : "linear",
+						"value" : "2"
+					}
+				],
+				"order" : 112,
+				"text" : "Cube Movement",
+				"type" : "combo",
+				"value" : "0"
+			},
+			"cubeshine" : 
+			{
+				"condition" : "",
+				"index" : 52,
+				"order" : 152,
+				"text" : "cube shine (only when bg = black)",
+				"type" : "bool",
+				"value" : false
+			},
+			"darkmode" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Dark mode",
+				"type" : "bool",
+				"value" : true
+			},
+			"dynamiclensflare" : 
+			{
+				"condition" : "lensflare.value == true",
+				"index" : 15,
+				"order" : 115,
+				"text" : "Dynamic Lens flare",
+				"type" : "bool",
+				"value" : true
+			},
+			"enableaudioshift" : 
+			{
+				"index" : 47,
+				"order" : 147,
+				"text" : "Enable audio shift",
+				"type" : "bool",
+				"value" : false
+			},
+			"enablecubes" : 
+			{
+				"index" : 16,
+				"order" : 116,
+				"text" : "Enable particle cubes",
+				"type" : "bool",
+				"value" : false
+			},
+			"enablewalls" : 
+			{
+				"index" : 40,
+				"order" : 140,
+				"text" : "Enable walls",
+				"type" : "bool",
+				"value" : false
+			},
+			"extraobjects" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "Extra animated objects",
+				"type" : "bool",
+				"value" : true
+			},
+			"fancyasfuckbloom" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Fancy as fuck bloom",
+				"type" : "bool",
+				"value" : false
+			},
+			"font" : 
+			{
+				"condition" : "clock.value == true",
+				"index" : 34,
+				"options" : 
+				[
+					{
+						"label" : "Future",
+						"value" : "futureforcescond"
+					},
+					{
+						"label" : "Alcubierre",
+						"value" : "alcubierre"
+					},
+					{
+						"label" : "Azonix",
+						"value" : "azonix"
+					}
+				],
+				"order" : 134,
+				"text" : "Font",
+				"type" : "combo",
+				"value" : "alcubierre"
+			},
+			"fractured" : 
+			{
+				"condition" : "enablewalls.value == true",
+				"index" : 41,
+				"order" : 141,
+				"text" : "Fractured walls",
+				"type" : "bool",
+				"value" : false
+			},
+			"ghostlights" : 
+			{
+				"index" : 14,
+				"order" : 114,
+				"text" : "Ghostlights",
+				"type" : "bool",
+				"value" : false
+			},
+			"hrh1backgroundh1hr" : 
+			{
+				"index" : 39,
+				"order" : 139,
+				"text" : "<hr><h1>Background</h1></hr>",
+				"type" : "bool",
+				"value" : false
+			},
+			"hrh1clockh1hr" : 
+			{
+				"index" : 27,
+				"order" : 127,
+				"text" : "<hr><h1>Clock</h1></hr>",
+				"type" : "bool",
+				"value" : true
+			},
+			"hrh1colorsh1hr" : 
+			{
+				"index" : 45,
+				"order" : 145,
+				"text" : "<hr><h1>Colors</h1></hr>",
+				"type" : "bool",
+				"value" : true
+			},
+			"hrh1generalh1hr" : 
+			{
+				"condition" : "",
+				"index" : 0,
+				"order" : 100,
+				"text" : "<h1>General</h1>",
+				"type" : "bool",
+				"value" : true
+			},
+			"idle" : 
+			{
+				"index" : 25,
+				"order" : 125,
+				"text" : "Idle animation",
+				"type" : "bool",
+				"value" : true
+			},
+			"initialzooom" : 
+			{
+				"fraction" : true,
+				"index" : 8,
+				"max" : 2,
+				"min" : 0.5,
+				"order" : 108,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Initial zoom",
+				"type" : "slider",
+				"value" : 1.2
+			},
+			"lensflare" : 
+			{
+				"index" : 11,
+				"order" : 111,
+				"text" : "Bass Lens Flare",
+				"type" : "bool",
+				"value" : true
+			},
+			"maximumsize" : 
+			{
+				"fraction" : false,
+				"index" : 4,
+				"max" : 60,
+				"min" : 1,
+				"order" : 104,
+				"text" : "maximum size",
+				"type" : "slider",
+				"value" : 30
+			},
+			"maxvalue" : 
+			{
+				"condition" : "bgvisualizer.value == true && enablewalls.value == true",
+				"fraction" : true,
+				"index" : 44,
+				"max" : 500,
+				"min" : 0,
+				"order" : 144,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "max background visualizer size",
+				"type" : "slider",
+				"value" : 50
+			},
+			"maxzoom" : 
+			{
+				"fraction" : true,
+				"index" : 5,
+				"max" : 5,
+				"min" : 0,
+				"order" : 105,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Max Bass zoom",
+				"type" : "slider",
+				"value" : 1.5
+			},
+			"mediaintegrationeffects" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Media Integration effects",
+				"type" : "bool",
+				"value" : true
+			},
+			"musicplayer" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Music Player",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty" : 
+			{
+				"index" : 53,
+				"order" : 153,
+				"text" : "<hr><a href='https://steamcommunity.com/linkfilter/?url=https://ko-fi.com/skye_shay '><img src='https://cdn.discordapp.com/attachments/702156436100087840/818921514019717130/kofi.png' width= 100%  ></img></href></hr>",
+				"type" : "bool",
+				"value" : true
+			},
+			"normaltime" : 
+			{
+				"condition" : "clock.value == true",
+				"index" : 32,
+				"order" : 132,
+				"text" : "24H format",
+				"type" : "bool",
+				"value" : true
+			},
+			"parallax" : 
+			{
+				"index" : 23,
+				"order" : 123,
+				"text" : "Parallax",
+				"type" : "bool",
+				"value" : true
+			},
+			"particlecolor" : 
+			{
+				"condition" : "enablecubes.value == true",
+				"index" : 18,
+				"order" : 118,
+				"text" : "Particle color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"particlepattern" : 
+			{
+				"condition" : "enablecubes.value == true",
+				"index" : 17,
+				"options" : 
+				[
+					{
+						"label" : "distributed",
+						"value" : "distributed"
+					},
+					{
+						"label" : "Twirl",
+						"value" : "twirl"
+					},
+					{
+						"label" : "Rings",
+						"value" : "rings"
+					}
+				],
+				"order" : 117,
+				"text" : "Cube Particle Pattern",
+				"type" : "combo",
+				"value" : "distributed"
+			},
+			"particles" : 
+			{
+				"index" : 26,
+				"order" : 126,
+				"text" : "Particles",
+				"type" : "bool",
+				"value" : true
+			},
+			"responsiveness" : 
+			{
+				"condition" : "smoothaudio.value != true",
+				"fraction" : false,
+				"index" : 21,
+				"max" : 200,
+				"min" : 1,
+				"order" : 121,
+				"text" : "Responsiveness",
+				"type" : "slider",
+				"value" : 75
+			},
+			"schemecolor" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"seconds" : 
+			{
+				"condition" : "clock.value == true",
+				"index" : 31,
+				"order" : 131,
+				"text" : "Seconds",
+				"type" : "bool",
+				"value" : false
+			},
+			"shiftstrength" : 
+			{
+				"condition" : "enableaudioshift.value == true",
+				"fraction" : true,
+				"index" : 49,
+				"max" : 1,
+				"min" : 0.05,
+				"order" : 149,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "shift strength",
+				"type" : "slider",
+				"value" : 0.5
+			},
+			"smoothaudio" : 
+			{
+				"index" : 19,
+				"order" : 119,
+				"text" : "Smoother audio (Recommended)",
+				"type" : "bool",
+				"value" : true
+			},
+			"smoothrate" : 
+			{
+				"condition" : "smoothaudio.value == true",
+				"fraction" : false,
+				"index" : 20,
+				"max" : 50,
+				"min" : 2,
+				"order" : 120,
+				"text" : "Smoothing rate",
+				"type" : "slider",
+				"value" : 7
+			},
+			"txtcolor" : 
+			{
+				"condition" : "txtcoloroverride.value == true && clock.value == true",
+				"index" : 28,
+				"order" : 128,
+				"text" : "Clock color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"txtcoloroverride" : 
+			{
+				"condition" : "clock.value == true",
+				"index" : 29,
+				"order" : 129,
+				"text" : "Clock color customization",
+				"type" : "bool",
+				"value" : false
+			},
+			"vertical" : 
+			{
+				"condition" : "clock.value == true",
+				"index" : 30,
+				"order" : 130,
+				"text" : "Vertical clock alignment",
+				"type" : "bool",
+				"value" : false
+			},
+			"walls" : 
+			{
+				"condition" : "enablewalls.value == true",
+				"index" : 43,
+				"order" : 143,
+				"text" : "Walls",
+				"type" : "color",
+				"value" : "0.2549019607843137 0.24313725490196078 0.4392156862745098"
+			},
+			"whitecel" : 
+			{
+				"condition" : "",
+				"index" : 22,
+				"options" : 
+				[
+					{
+						"label" : "Cel",
+						"value" : "celshading"
+					},
+					{
+						"label" : "White Cel",
+						"value" : "whitecel"
+					},
+					{
+						"label" : "Normal",
+						"value" : "empty"
+					}
+				],
+				"order" : 122,
+				"text" : "Shading",
+				"type" : "combo",
+				"value" : "whitecel"
+			}
+		},
+		"supportsaudioprocessing" : true,
+		"supportsvideo" : true,
+		"supportsvideoflags" : 2
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Abstract" ],
+	"title" : "Fox Stevenson Simple Life Cube Visualizer Extended",
+	"type" : "scene",
+	"version" : 52,
+	"visibility" : "public",
+	"workshopid" : "2406911626",
+	"workshopurl" : "steam://url/CommunityFilePage/2406911626"
+}

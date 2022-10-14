@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/effects/glitch.json",
+		"shaders/effects/glitch.frag",
+		"shaders/effects/glitch.vert"
+	],
+	"editable" : true,
+	"group" : "localeffects",
+	"name" : "glitch",
+	"passes" : 
+	[
+		{
+			"material" : "materials/effects/glitch.json"
+		}
+	],
+	"replacementkey" : "glitch",
+	"version" : 1
+}

@@ -1,0 +1,19 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "normal",
+			"combos" : 
+			{
+				"LIGHTING" : 0,
+				"REFLECTION" : 0,
+				"VERSION" : 2
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "enabled",
+			"depthwrite" : "enabled",
+			"shader" : "genericimage2",
+			"textures" : [ "1589860716_126_Dark-Dual-Screen-Wallpapers" ]
+		}
+	]
+}

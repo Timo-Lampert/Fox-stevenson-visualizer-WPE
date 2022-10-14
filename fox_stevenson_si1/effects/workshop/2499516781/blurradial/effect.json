@@ -1,0 +1,21 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2499516781/effects/blur_radial_gaussian.json",
+		"shaders/workshop/2499516781/effects/blur_radial_gaussian.frag",
+		"shaders/workshop/2499516781/effects/blur_radial_gaussian.vert"
+	],
+	"description" : "ui_editor_effect_blur_radial_description",
+	"group" : "blur",
+	"name" : "ui_editor_effect_blur_radial_title",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2499516781/effects/blur_radial_gaussian.json"
+		}
+	],
+	"performance" : "expensive",
+	"preview" : "preview/project.json",
+	"replacementkey" : "blur_radial",
+	"version" : 1
+}
