@@ -10,8 +10,8 @@
 			"audioshift" : 
 			{
 				"condition" : "enableaudioshift.value == true",
-				"index" : 48,
-				"order" : 148,
+				"index" : 49,
+				"order" : 149,
 				"text" : "audio shift",
 				"type" : "color",
 				"value" : "1 0 0"
@@ -19,8 +19,8 @@
 			"autoparallax" : 
 			{
 				"condition" : "parallax.value == true",
-				"index" : 24,
-				"order" : 124,
+				"index" : 25,
+				"order" : 125,
 				"text" : "Auto Parallax",
 				"type" : "bool",
 				"value" : false
@@ -52,8 +52,8 @@
 			"bgvisualizer" : 
 			{
 				"condition" : "enablewalls.value == true",
-				"index" : 42,
-				"order" : 142,
+				"index" : 43,
+				"order" : 143,
 				"text" : "Background visualizer",
 				"type" : "bool",
 				"value" : true
@@ -61,20 +61,28 @@
 			"bloomstrength" : 
 			{
 				"fraction" : true,
-				"index" : 46,
+				"index" : 47,
 				"max" : 10,
 				"min" : 0,
-				"order" : 146,
+				"order" : 147,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "bloom strength",
 				"type" : "slider",
 				"value" : 1
 			},
+			"chromaticabberration" : 
+			{
+				"index" : 14,
+				"order" : 114,
+				"text" : "Chromatic aberration",
+				"type" : "bool",
+				"value" : true
+			},
 			"clock" : 
 			{
-				"index" : 33,
-				"order" : 133,
+				"index" : 34,
+				"order" : 134,
 				"text" : "Clock",
 				"type" : "bool",
 				"value" : false
@@ -83,10 +91,10 @@
 			{
 				"condition" : "clock.value == true",
 				"fraction" : false,
-				"index" : 35,
+				"index" : 36,
 				"max" : 50,
 				"min" : 15,
-				"order" : 135,
+				"order" : 136,
 				"text" : "Clock size",
 				"type" : "slider",
 				"value" : 30
@@ -95,10 +103,10 @@
 			{
 				"condition" : "clock.value == true",
 				"fraction" : true,
-				"index" : 37,
+				"index" : 38,
 				"max" : 10,
 				"min" : -10,
-				"order" : 137,
+				"order" : 138,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "clock X position",
@@ -109,10 +117,10 @@
 			{
 				"condition" : "clock.value == true",
 				"fraction" : true,
-				"index" : 38,
+				"index" : 39,
 				"max" : 10,
 				"min" : -10,
-				"order" : 138,
+				"order" : 139,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "Clock Y position",
@@ -123,10 +131,10 @@
 			{
 				"condition" : "clock.value == true",
 				"fraction" : true,
-				"index" : 36,
+				"index" : 37,
 				"max" : 10,
 				"min" : -10,
-				"order" : 136,
+				"order" : 137,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "Clock z position",
@@ -135,16 +143,16 @@
 			},
 			"colorrotation" : 
 			{
-				"index" : 51,
-				"order" : 151,
+				"index" : 52,
+				"order" : 152,
 				"text" : "Color rotation",
 				"type" : "bool",
 				"value" : false
 			},
 			"colorshifting" : 
 			{
-				"index" : 50,
-				"order" : 150,
+				"index" : 51,
+				"order" : 151,
 				"text" : "color shifting",
 				"type" : "bool",
 				"value" : true
@@ -175,8 +183,8 @@
 			"cubeshine" : 
 			{
 				"condition" : "",
-				"index" : 52,
-				"order" : 152,
+				"index" : 53,
+				"order" : 153,
 				"text" : "cube shine (only when bg = black)",
 				"type" : "bool",
 				"value" : false
@@ -192,32 +200,32 @@
 			"dynamiclensflare" : 
 			{
 				"condition" : "lensflare.value == true",
-				"index" : 15,
-				"order" : 115,
+				"index" : 16,
+				"order" : 116,
 				"text" : "Dynamic Lens flare",
 				"type" : "bool",
 				"value" : true
 			},
 			"enableaudioshift" : 
 			{
-				"index" : 47,
-				"order" : 147,
+				"index" : 48,
+				"order" : 148,
 				"text" : "Enable audio shift",
 				"type" : "bool",
 				"value" : false
 			},
 			"enablecubes" : 
 			{
-				"index" : 16,
-				"order" : 116,
+				"index" : 17,
+				"order" : 117,
 				"text" : "Enable particle cubes",
 				"type" : "bool",
 				"value" : false
 			},
 			"enablewalls" : 
 			{
-				"index" : 40,
-				"order" : 140,
+				"index" : 41,
+				"order" : 141,
 				"text" : "Enable walls",
 				"type" : "bool",
 				"value" : false
@@ -241,7 +249,7 @@
 			"font" : 
 			{
 				"condition" : "clock.value == true",
-				"index" : 34,
+				"index" : 35,
 				"options" : 
 				[
 					{
@@ -257,7 +265,7 @@
 						"value" : "azonix"
 					}
 				],
-				"order" : 134,
+				"order" : 135,
 				"text" : "Font",
 				"type" : "combo",
 				"value" : "alcubierre"
@@ -265,40 +273,40 @@
 			"fractured" : 
 			{
 				"condition" : "enablewalls.value == true",
-				"index" : 41,
-				"order" : 141,
+				"index" : 42,
+				"order" : 142,
 				"text" : "Fractured walls",
 				"type" : "bool",
 				"value" : false
 			},
 			"ghostlights" : 
 			{
-				"index" : 14,
-				"order" : 114,
+				"index" : 15,
+				"order" : 115,
 				"text" : "Ghostlights",
 				"type" : "bool",
 				"value" : false
 			},
 			"hrh1backgroundh1hr" : 
 			{
-				"index" : 39,
-				"order" : 139,
+				"index" : 40,
+				"order" : 140,
 				"text" : "<hr><h1>Background</h1></hr>",
 				"type" : "bool",
 				"value" : false
 			},
 			"hrh1clockh1hr" : 
 			{
-				"index" : 27,
-				"order" : 127,
+				"index" : 28,
+				"order" : 128,
 				"text" : "<hr><h1>Clock</h1></hr>",
 				"type" : "bool",
 				"value" : true
 			},
 			"hrh1colorsh1hr" : 
 			{
-				"index" : 45,
-				"order" : 145,
+				"index" : 46,
+				"order" : 146,
 				"text" : "<hr><h1>Colors</h1></hr>",
 				"type" : "bool",
 				"value" : true
@@ -314,8 +322,8 @@
 			},
 			"idle" : 
 			{
-				"index" : 25,
-				"order" : 125,
+				"index" : 26,
+				"order" : 126,
 				"text" : "Idle animation",
 				"type" : "bool",
 				"value" : true
@@ -356,10 +364,10 @@
 			{
 				"condition" : "bgvisualizer.value == true && enablewalls.value == true",
 				"fraction" : true,
-				"index" : 44,
+				"index" : 45,
 				"max" : 500,
 				"min" : 0,
-				"order" : 144,
+				"order" : 145,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "max background visualizer size",
@@ -397,8 +405,8 @@
 			},
 			"newproperty" : 
 			{
-				"index" : 53,
-				"order" : 153,
+				"index" : 54,
+				"order" : 154,
 				"text" : "<hr><a href='https://steamcommunity.com/linkfilter/?url=https://ko-fi.com/skye_shay '><img src='https://cdn.discordapp.com/attachments/702156436100087840/818921514019717130/kofi.png' width= 100%  ></img></href></hr>",
 				"type" : "bool",
 				"value" : true
@@ -406,16 +414,16 @@
 			"normaltime" : 
 			{
 				"condition" : "clock.value == true",
-				"index" : 32,
-				"order" : 132,
+				"index" : 33,
+				"order" : 133,
 				"text" : "24H format",
 				"type" : "bool",
 				"value" : true
 			},
 			"parallax" : 
 			{
-				"index" : 23,
-				"order" : 123,
+				"index" : 24,
+				"order" : 124,
 				"text" : "Parallax",
 				"type" : "bool",
 				"value" : true
@@ -423,8 +431,8 @@
 			"particlecolor" : 
 			{
 				"condition" : "enablecubes.value == true",
-				"index" : 18,
-				"order" : 118,
+				"index" : 19,
+				"order" : 119,
 				"text" : "Particle color",
 				"type" : "color",
 				"value" : "1 1 1"
@@ -432,7 +440,7 @@
 			"particlepattern" : 
 			{
 				"condition" : "enablecubes.value == true",
-				"index" : 17,
+				"index" : 18,
 				"options" : 
 				[
 					{
@@ -448,15 +456,15 @@
 						"value" : "rings"
 					}
 				],
-				"order" : 117,
+				"order" : 118,
 				"text" : "Cube Particle Pattern",
 				"type" : "combo",
 				"value" : "distributed"
 			},
 			"particles" : 
 			{
-				"index" : 26,
-				"order" : 126,
+				"index" : 27,
+				"order" : 127,
 				"text" : "Particles",
 				"type" : "bool",
 				"value" : true
@@ -465,10 +473,10 @@
 			{
 				"condition" : "smoothaudio.value != true",
 				"fraction" : false,
-				"index" : 21,
+				"index" : 22,
 				"max" : 200,
 				"min" : 1,
-				"order" : 121,
+				"order" : 122,
 				"text" : "Responsiveness",
 				"type" : "slider",
 				"value" : 75
@@ -484,8 +492,8 @@
 			"seconds" : 
 			{
 				"condition" : "clock.value == true",
-				"index" : 31,
-				"order" : 131,
+				"index" : 32,
+				"order" : 132,
 				"text" : "Seconds",
 				"type" : "bool",
 				"value" : false
@@ -494,10 +502,10 @@
 			{
 				"condition" : "enableaudioshift.value == true",
 				"fraction" : true,
-				"index" : 49,
+				"index" : 50,
 				"max" : 1,
 				"min" : 0.05,
-				"order" : 149,
+				"order" : 150,
 				"precision" : 3,
 				"step" : 0.01,
 				"text" : "shift strength",
@@ -506,8 +514,8 @@
 			},
 			"smoothaudio" : 
 			{
-				"index" : 19,
-				"order" : 119,
+				"index" : 20,
+				"order" : 120,
 				"text" : "Smoother audio (Recommended)",
 				"type" : "bool",
 				"value" : true
@@ -516,10 +524,10 @@
 			{
 				"condition" : "smoothaudio.value == true",
 				"fraction" : false,
-				"index" : 20,
+				"index" : 21,
 				"max" : 50,
 				"min" : 2,
-				"order" : 120,
+				"order" : 121,
 				"text" : "Smoothing rate",
 				"type" : "slider",
 				"value" : 7
@@ -527,8 +535,8 @@
 			"txtcolor" : 
 			{
 				"condition" : "txtcoloroverride.value == true && clock.value == true",
-				"index" : 28,
-				"order" : 128,
+				"index" : 29,
+				"order" : 129,
 				"text" : "Clock color",
 				"type" : "color",
 				"value" : "0 0 0"
@@ -536,8 +544,8 @@
 			"txtcoloroverride" : 
 			{
 				"condition" : "clock.value == true",
-				"index" : 29,
-				"order" : 129,
+				"index" : 30,
+				"order" : 130,
 				"text" : "Clock color customization",
 				"type" : "bool",
 				"value" : false
@@ -545,8 +553,8 @@
 			"vertical" : 
 			{
 				"condition" : "clock.value == true",
-				"index" : 30,
-				"order" : 130,
+				"index" : 31,
+				"order" : 131,
 				"text" : "Vertical clock alignment",
 				"type" : "bool",
 				"value" : false
@@ -554,8 +562,8 @@
 			"walls" : 
 			{
 				"condition" : "enablewalls.value == true",
-				"index" : 43,
-				"order" : 143,
+				"index" : 44,
+				"order" : 144,
 				"text" : "Walls",
 				"type" : "color",
 				"value" : "0.2549019607843137 0.24313725490196078 0.4392156862745098"
@@ -563,7 +571,7 @@
 			"whitecel" : 
 			{
 				"condition" : "",
-				"index" : 22,
+				"index" : 23,
 				"options" : 
 				[
 					{
@@ -579,7 +587,7 @@
 						"value" : "empty"
 					}
 				],
-				"order" : 122,
+				"order" : 123,
 				"text" : "Shading",
 				"type" : "combo",
 				"value" : "whitecel"
@@ -593,7 +601,7 @@
 	"tags" : [ "Abstract" ],
 	"title" : "Fox Stevenson Simple Life Cube Visualizer Extended",
 	"type" : "scene",
-	"version" : 52,
+	"version" : 56,
 	"visibility" : "public",
 	"workshopid" : "2406911626",
 	"workshopurl" : "steam://url/CommunityFilePage/2406911626"

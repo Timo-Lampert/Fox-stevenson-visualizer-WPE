@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2801687435/effects/edge_glow.json",
+		"shaders/workshop/2801687435/effects/edge_glow.frag",
+		"shaders/workshop/2801687435/effects/edge_glow.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Edge glow",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2801687435/effects/edge_glow.json"
+		}
+	],
+	"replacementkey" : "edge_glow",
+	"version" : 1
+}

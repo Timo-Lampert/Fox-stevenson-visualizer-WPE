@@ -2,6 +2,7 @@
 // [COMBO] {"material":"ui_editor_properties_composite","combo":"COMPOSITE","type":"options","default":0,"options":{"ui_editor_properties_normal":0,"ui_editor_properties_blend":1,"ui_editor_properties_under":2,"ui_editor_properties_cutout":3}}
 // [COMBO] {"material":"ui_editor_properties_blend_mode","combo":"BLENDMODE","type":"imageblending","default":0}
 // [COMBO] {"material":"ui_editor_properties_monochrome","combo":"COMPOSITEMONO","type":"options","default":0}
+// [COMBO] {"material":"ui_editor_properties_blur_alpha","combo":"BLURALPHA","type":"options","default":1}
 
 #include "common_composite.h"
 
@@ -33,6 +34,10 @@ void main() {
 	float div = mix(blurred.a, 1, step(blurred.a, 0));
 	blurred = ApplyComposite(albedoOld, vec4(blurred.rgb / div, blurred.a));
 	blurred = mix(albedoOld, blurred, mask);
+
+#if BLURALPHA == 0
+	blurred.a = albedoOld.a;
+#endif
 	
 	gl_FragColor = blurred;
 }

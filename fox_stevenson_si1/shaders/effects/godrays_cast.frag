@@ -15,7 +15,7 @@ uniform vec3 g_ColorRays; // {"material":"color","label":"ui_editor_properties_c
 #if CASTER == 0
 uniform vec2 g_Center; // {"material":"center","label":"ui_editor_properties_center","default":"0.5 0.5","position":true}
 #else
-uniform float g_Direction; // {"material":"direction","label":"ui_editor_properties_direction","default":3.14159265358,"range":[0,6.28],"direction":true,"conversion":"rad2deg"}
+uniform float g_Direction; // {"material":"direction","label":"ui_editor_properties_direction","default":3.14159265358,"direction":true,"conversion":"rad2deg"}
 #endif
 
 void main() {

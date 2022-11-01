@@ -1,0 +1,109 @@
+{
+	"controlpoint" : 
+	[
+		{
+			"flags" : 2,
+			"id" : 0,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 1,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 2,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 3,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 4,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 5,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 6,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 7,
+			"offset" : "0 0 0"
+		}
+	],
+	"emitter" : 
+	[
+		{
+			"directions" : "3 3 3",
+			"distancemax" : 512,
+			"distancemin" : 100,
+			"id" : 5,
+			"instantaneous" : 2,
+			"name" : "sphererandom",
+			"origin" : "20 20 20",
+			"rate" : 2
+		}
+	],
+	"flags" : 0,
+	"initializer" : 
+	[
+		{
+			"id" : 2,
+			"max" : 10,
+			"min" : 3,
+			"name" : "lifetimerandom"
+		},
+		{
+			"id" : 3,
+			"max" : 200,
+			"min" : 50,
+			"name" : "sizerandom"
+		},
+		{
+			"id" : 4,
+			"min" : "255 255 255",
+			"name" : "colorrandom"
+		}
+	],
+	"material" : "materials/particle/halo_8.json",
+	"maxcount" : 500,
+	"operator" : 
+	[
+		{
+			"id" : 6,
+			"name" : "movement"
+		},
+		{
+			"fadeintime" : 0,
+			"id" : 7,
+			"name" : "alphafade"
+		},
+		{
+			"id" : 8,
+			"name" : "turbulence",
+			"timescale" : 50
+		}
+	],
+	"renderer" : 
+	[
+		{
+			"id" : 1,
+			"length" : 20,
+			"name" : "ropetrail",
+			"segments" : 10,
+			"subdivision" : 16
+		}
+	],
+	"starttime" : 0
+}

@@ -10,7 +10,7 @@ uniform float g_Time;
 attribute vec3 a_Position;
 attribute vec2 a_TexCoord;
 
-uniform float g_Direction; // {"material":"direction","label":"ui_editor_properties_direction","default":0,"range":[0,6.28],"direction":true}
+uniform float g_Direction; // {"material":"direction","label":"ui_editor_properties_direction","default":0,"direction":true}
 uniform float g_Speed; // {"material":"speed","label":"ui_editor_properties_speed","default":0,"range":[-1,1]}
 
 varying vec4 v_TexCoord01;

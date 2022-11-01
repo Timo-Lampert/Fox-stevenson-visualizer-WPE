@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2718465779/effects/pulse_.json",
+		"shaders/workshop/2718465779/effects/pulse_.frag",
+		"shaders/workshop/2718465779/effects/pulse_.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Pulse+",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2718465779/effects/pulse_.json"
+		}
+	],
+	"replacementkey" : "pulse_",
+	"version" : 1
+}

@@ -4,6 +4,7 @@
 	"name" : "ui_editor_effect_godrays_title",
 	"description" : "ui_editor_effect_godrays_description",
 	"group" : "enhance",
+	"performance" : "expensive",
 	"preview" : "preview/project.json",
 	"passes" :
 	[

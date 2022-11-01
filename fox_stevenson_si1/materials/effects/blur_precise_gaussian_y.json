@@ -6,7 +6,8 @@
 		"depthwrite": "disabled",
 		"cullmode": "nocull",
 		"combos": {
-			"VERTICAL" : 1
+			"VERTICAL" : 1,
+			"ENABLEMASK" : 1
 		}
 	}]
 }

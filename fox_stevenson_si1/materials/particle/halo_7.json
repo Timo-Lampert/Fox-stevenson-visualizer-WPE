@@ -1,0 +1,22 @@
+{
+	"passes" : 
+	[
+		{
+			"alphawriting" : "default",
+			"blending" : "additive",
+			"combos" : 
+			{
+				"REFRACT" : 0
+			},
+			"constantshadervalues" : 
+			{
+				"ui_editor_properties_overbright" : 0.8
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "enabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericparticle",
+			"textures" : [ "particle/beam/beam_2_fade" ]
+		}
+	]
+}

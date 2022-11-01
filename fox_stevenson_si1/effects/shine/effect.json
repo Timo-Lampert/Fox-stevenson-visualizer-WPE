@@ -4,6 +4,7 @@
 	"name" : "ui_editor_effect_shine_title",
 	"description" : "ui_editor_effect_shine_description",
 	"group" : "enhance",
+	"performance" : "expensive",
 	"preview" : "preview/project.json",
 	"passes" :
 	[

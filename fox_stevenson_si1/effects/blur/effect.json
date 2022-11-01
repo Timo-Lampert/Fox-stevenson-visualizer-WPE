@@ -4,6 +4,7 @@
 	"name" : "ui_editor_effect_blur_title",
 	"description" : "ui_editor_effect_blur_description",
 	"group" : "blur",
+	"performance" : "expensive",
 	"preview" : "preview/project.json",
 	"passes" :
 	[

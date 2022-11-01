@@ -2,8 +2,8 @@
 	"passes" : 
 	[
 		{
+			"alphawriting" : "default",
 			"blending" : "normal",
-			"combos" : {},
 			"constantshadervalues" : 
 			{
 				"Alpha" : 1,

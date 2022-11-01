@@ -11,6 +11,11 @@ varying vec4 v_TexCoord;
 
 uniform vec4 g_Texture0Resolution;
 
+#if MASK
+uniform vec4 g_Texture2Resolution;
+varying vec2 v_TexCoordMask;
+#endif
+
 void main() {
 #if VERTICAL
 	gl_Position = mul(vec4(a_Position, 1.0), g_ModelViewProjectionMatrix);
@@ -26,5 +31,10 @@ void main() {
 #else
 	v_TexCoord.z = g_Scale.x / g_Texture0Resolution.z;
 	v_TexCoord.w = 0;
+#endif
+
+#if MASK
+	v_TexCoordMask.xy = vec2(v_TexCoord.x * g_Texture2Resolution.z / g_Texture2Resolution.x,
+						v_TexCoord.y * g_Texture2Resolution.w / g_Texture2Resolution.y);
 #endif
 }

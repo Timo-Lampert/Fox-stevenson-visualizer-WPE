@@ -17,7 +17,7 @@ uniform vec3 u_color1; // {"default":"1 1 1","material":"color 1","type":"color"
 uniform float u_DistOpacity; // {"default":"1","material":"Opacity"}
 uniform float u_TimeSpeed; // {"material":"Speed","default":1,"range":[-10,10]}
 uniform float u_SparkleSpeed; // {"material":"Sparkle Speed","default":1,"range":[-10,10]}
-uniform float u_SparkleGlow; // {"material":"Sparkle Glow","default":20,"range":[15,50]}
+uniform float u_SparkleGlow; // {"material":"Sparkle Glow","default":20,"range":[15,200]}
 uniform vec4 g_Texture0Resolution;
 uniform float g_Time;
 uniform float u_pointerSpeed; // {"material":"pointerspeed","label":"Cursor Influence","default":0,"range":[-1,1]}
